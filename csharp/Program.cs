@@ -9,6 +9,11 @@ namespace ConsoleApplication
         {
             FindAllBinaryTreePathsToLeafNodes();
         }
+        
+        
+        /*
+        Given a binary tree, return all root-to-leaf paths.
+        */
         public static void FindAllBinaryTreePathsToLeafNodes()
         {
             /*
@@ -18,7 +23,7 @@ namespace ConsoleApplication
             /\       \
           20  25      200  
             */
-            
+
             var tree = new TreeNode(0);
             tree.left = new TreeNode(10);
             tree.right = new TreeNode(100);
